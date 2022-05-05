@@ -15,4 +15,6 @@ def search(path, ftype):
   click.echo(click.style("Found Matches", fg="red")
   for result in res:
       click.echo(click.style(f"{result}", fg="white", bg="yellow"
+if __name__ == "__main__":
+   search()
   
