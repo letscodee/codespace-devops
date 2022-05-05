@@ -1,5 +1,5 @@
 install:
-    pip install --upgrade pip && pip install -r requirements.txt
+    pip install --upgrade pip && pip install -r Requirements.txt
 lint:
     pylint --disable=R,C Hello.py
 format:
