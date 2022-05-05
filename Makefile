@@ -1,11 +1,11 @@
 install:
-    pip install --upgrade pip &&\
+	pip install --upgrade pip &&\
         pip install -r Requirements.txt
 lint:
-    pylint --disable=R,C hello.py
+	pylint --disable=R,C hello.py
 
 format:
-    black *.py
-    
+	black *.py
+
 test:
-    python -m pytest -vv --cov=hello test_hello.py 
+	python -m pytest -vv --cov=hello test_hello.py
